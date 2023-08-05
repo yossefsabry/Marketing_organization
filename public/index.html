@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- this file for tailwind css -->
+    <link rel="stylesheet" href="../public/output.css" />
+    <!-- start main file -->
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <!-- global rules -->
+    <link rel="stylesheet" href="../src/css/global.css" />
+    <!-- start noramilze  -->
+    <link rel="stylesheet" href="../src/css/normailze.css" />
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="../src/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="w-full py-5" id="top">
+      <div class="container w-full flex items-center justify-between">
+        <div class="bar" id="menuBtn">
+          <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+        </div>
+        <!-- mega menu -->
+        <nav class="hidden" id="megaMenu">
+          <ul>
+            <li><a href="#what-do">what we do</a></li>
+            <li><a href="#case-study">how we van help</a></li>
+            <li><a href="#launch">our team</a></li>
+            <li><a href="#testtimonials">our work</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#about">contact us</a></li>
+          </ul>
+        </nav>
+            <!-- end mega menu -->
+            <!-- top button -->
+            <i class="fa-solid fa-up-long top-button" id="toTopBtn"></i>
+            <!-- end top button -->
+        <div class="searh-item flex gap-3 items-center">
+          <input
+            type="text"
+            placeholder="search.."
+            class="py-2 px-2 rounded-md hover:placeholder:opacity-0 focus:placeholder:opacity-0 placeholder:text-sm placeholder:transition placeholder:duration-200"
+          />
+          <label>
+            <input
+              id="darkModeCheckbox"
+              class="toggle-checkbox"
+              type="checkbox"
+            />
+            <div class="toggle-switch"></div>
+          </label>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start hero -->
+    <div class="hero">
+      <div class="container flex flex-col text-center">
+        <div class="text-title text-center">
+          <h2 class="text-7xl">Social Media:</h2>
+          <div class="inline-flex">
+            <sup class="text-2xl pr-10 pt-2">EST</sup>
+            <h2 class="text-7xl">Simplified.</h2>
+            <sup class="text-2xl pl-10 pt-2">1999</sup>
+          </div>
+        </div>
+        <div
+          class="container-tiny grid grid-cols-3 gap-20 items-center relative bottom-14"
+        >
+          <div class="card card2 align-middle text-center">
+            <h1>What We Do ?</h1>
+            <p class="leading-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              vero molestias deserunt officia eos rem corrupti maxime laboriosam
+              cum! Incidunt illum laudantium optio asperiores, est corrupti aut
+              quos cupiditate placeat.
+            </p>
+            <button class="btn1 mt-2 rounded-2xl px-6 py-2 text-white text-sm">
+              GET IN TOUCH
+            </button>
+          </div>
+          <div class="card card-img -z-10 align-middle text-center">
+            <img src="../src/imgs/meeting.jpg" alt="person work in laptop" />
+          </div>
+          <div class="card card3 align-middle text-center pl-14">
+            <h1>How We Can Help ?</h1>
+            <p class="leading-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              vero molestias deserunt officia eos rem corrupti maxime laboriosam
+              cum! Incidunt illum laudantium optio asperiores, est corrupti aut
+              quos cupiditate placeat.
+            </p>
+            <button class="btn2 mt-2 rounded-2xl px-6 py-2 text-sm">
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div
+          class="container-end w-full flex items-center justify-between z-20 gap-3 pb-5"
+        >
+          <p><a href="" class="hover:underline">MADE FOR YOUR BUSINESS</a></p>
+          <a href="#what-do">
+            <i
+              class="fa-solid fa-arrow-down cursor-pointer text-blue-900 relative animate-bounce"
+              href="#what-do"
+            ></i>
+          </a>
+          <span
+            ><a href="#what-do" class="hover:underline"
+              >READY? START TODAY</a
+            ></span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+    <!-- start What we do -->
+    <div class="what-do pb-10" id="what-do">
+      <div class="container">
+        <h2 class="text-center text-3xl py-20">WHAT WE DO</h2>
+        <div class="container-tiny flex items-center align-middle gap-10">
+          <img
+            src="../src/imgs/whatDo-1.jpg"
+            class="relative bottom-56 rounded-md card-1"
+            alt="people_work"
+            width="300px"
+          />
+          <p class="text-5xl text-center px-3 leading-loose pb-40">
+            Social Media Marketing Social Media Management Campaingn Management
+            Brand Strategy & Design Marketing Strategy .
+          </p>
+          <img
+            src="../src/imgs/whatDo-2.jpg"
+            class="relative top-40 rounded-md"
+            alt="people_work"
+            width="300px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end What we do -->
+    <!-- start case study -->
+    <div class="case-study text-center pt-20" id="case-study">
+      <span class="relative right-20 top-5">FEATURED</span>
+      <h2 class="text-7xl">Case Studies</h2>
+      <div class="line w-full h-0.5 my-10"></div>
+      <div class="container flex justify-center gap-5">
+        <div
+          class="card cursor-pointer text-center border-b-2 border-blue-900 hover:shadow-md"
+        >
+          <img src="../src/imgs/study1.jpg" alt="" />
+          <p class="text-3xl py-3">Application Joo - Your 2021</p>
+        </div>
+        <div
+          class="card cursor-pointer text-center border-b-2 border-blue-900 relative top-52 hover:shadow-md"
+        >
+          <img src="../src/imgs/study2.jpg" alt="" />
+          <p class="text-3xl py-3">website Joo - Your 2022</p>
+        </div>
+      </div>
+      <button class="btn1 mt-2 rounded-2xl px-6 py-2 text-white text-sm">
+        MORE
+      </button>
+    </div>
+    <!-- end case study -->
+    <!-- start launch -->
+    <div
+      class="launch flex justify-between align-middle items-center gap-20"
+      id="launch"
+    >
+      <div class="info text-center items-center">
+        <h2 class="text-6xl pb-1">Lanuch in :</h2>
+        <span class="text-1xl relative bottom-4">1999</span>
+        <span class="text-6xl px-1"> Style</span>
+        <span class="text-1xl relative bottom-4">2022</span>
+        <p class="px-20 py-10 leading-6">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          alias ipsa, recusandae in repudiandae quia similique inventore
+          nesciunt id! Commodi hic vel labore animi tempore at incidunt,
+          excepturi officiis? Aperiam.
+        </p>
+        <button class="mt-2 rounded-2xl px-6 py-2 text-sm">LEARN MORE</button>
+      </div>
+      <div class="img">
+        <img src="../src/imgs/lanuch1.jpg" alt="smile_face" width="400px" />
+      </div>
+    </div>
+    <!-- end launch -->
+    <!-- start testimonials -->
+    <div class="testtimonials pt-20 pb-10" id="testtimonials">
+      <div class="container">
+        <h2 class="text-6xl">Testtimonials</h2>
+        <p class="leading-9 py-10">
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ab
+          facere minima magni nihil voluptatem doloribus est, rerum alias quae,
+          maiores nisi eos facilis corporis temporibus harum quibusdam. Fugit
+          aut similique voluptatum, soluta tenetur vitae facere placeat
+          reiciendis repellat totam magni harum veniam enim, mollitia architecto
+          quos dolor expedita vel exercitationem earum ex pariatur quaerat
+          voluptas id? Suscipit aliquid facere sint repellendus numquam at,
+          magni ullam veritatis aliquam eius eaque! "
+        </p>
+        <div class="link">
+          <i class="fa-solid fa-arrow-right px-2 relative"></i>
+          <a href="" class="font-bold hover:underline"
+            >Genevieve Harleen ,News Company</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end testimonials -->
+    <!-- start about us & contact us -->
+
+    <div class="about" id="about">
+      <div
+        class="container w-full flex items-center justify-between align-middle"
+      >
+        <div class="welcame text-center pt-20 pb-20">
+          <h2 class="text-6xl">We'd Love</h2>
+          <span class="relative bottom-3 right-2 text-xl">20</span>
+          <h2 class="text-6xl pt-2 inline-block">to Hear</h2>
+          <span class="relative bottom-3 left-2 text-xl">23</span>
+          <h2 class="text-6xl pt-2">From You !</h2>
+          <p class="pt-4 leading-9 p-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            aperiam beatae? Nisi similique consequuntur repudiandae corrupti
+            vitae eveniet assumenda minima! Deserunt, dolore deleniti. Fugiat
+            tenetur quaerat dolor aliquid? Amet hic impedit cum dolorem dolores
+            eos! Omnis, alias magnam temporibus vel tenetur aliquam consequuntur
+            facere enim provident est, voluptatem suscipit. Qui.
+          </p>
+        </div>
+        <div class="contact pt-20 pb-20 pl-20">
+          <h2 class="text-5xl pb-4">About You</h2>
+          <input type="text" placeholder="Your Full Name" class="block" />
+          <input type="email" placeholder="email@gamil.com" class="block" />
+          <h2 class="text-5xl py-8">The Project</h2>
+          <p class="font-bold pt-2 pb-5">How We Can Help ?</p>
+          <div
+            class="item-contact flex align-middle items-center justify-center flex-wrap gap-2"
+          >
+            <span>social media marketing</span>
+            <span>social media management</span>
+            <span>campalgn</span>
+            <span>brand strategy</span>
+            <span>marketing strategy</span>
+            <span>brand Design</span>
+          </div>
+          <input type="text" placeholder="Project Description" class="block" />
+          <button class="text-white mt-2 mb-5">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+    <!-- end about us & contact us -->
+    <!-- start footer -->
+    <footer>
+      <div class="container grid pt-20  md:grid-cols-2 sm:grid-cols-1 ">
+        <div class="nav">
+          <h2>
+            Our Campany
+          </h2>
+          <ul>
+            <li><a href="">what we do</a></li>
+            <li><a href="">how we van help</a></li>
+            <li><a href="">our team</a></li>
+            <li><a href="">press realease</a></li>
+            <li><a href="">our work</a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <h2>
+            reseouces
+          </h2>
+          <ul>
+            <li><a href="">contexnt marketing matrix</a></li>
+            <li><a href="">socila media templates</a></li>
+            <li><a href="">branding questions</a></li>
+            <li><a href="">compain roedmap</a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <h2>
+            get in touch
+          </h2>
+          <ul>
+            <li><a href="">carees</a></li>
+            <li><a href="">plans & pricing</a></li>
+            <li><a href="">parneships</a></li>
+            <li><a href="">social media</a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <h2>
+            legal
+          </h2>
+          <ul>
+            <li><a href="">terms & condition</a></li>
+            <li><a href="">provacy policy</a></li>
+            <li><a href="">copywrite</a></li>
+            <li><a href="">cookies policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copywrite">
+        made by >> <a href="https://github.com/yossefsabry" target="_blank">yossefsabry</a> @copywrite
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="../src/js/script.js"></script>
+  </body>
+</html>

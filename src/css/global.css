@@ -1,0 +1,64 @@
+/* start glodel rules */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+  background-color: #ececee;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #777;
+}
+img {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #156395;
+}
+
+button {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 0 2rem;
+  margin: 0 auto;  
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 776px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
+/*end globle rules */
